@@ -50,7 +50,7 @@ public class Board {
     }
 
     public void reset(){
-        spaces.forEach(List::clear); //testar
+        spaces.forEach(c -> c.forEach(Space::clearSpace));
     }
 
     public boolean gameIsFinish(){
