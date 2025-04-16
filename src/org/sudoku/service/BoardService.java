@@ -38,7 +38,7 @@ public class BoardService {
         return board.gameIsFinish();
     }
 
-    private List<List<Space>> initBoard(final Map<String, String> gameconfig){
+    private List<List<Space>> initBoard(final Map<String, String> gameConfig){
         List<List<Space>> spaces = new ArrayList<>();
         for (int i = 0; i < BOARD_LIMIT; i++) {
             spaces.add(new ArrayList<>());
