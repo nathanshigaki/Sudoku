@@ -3,10 +3,10 @@ package org.sudoku.ui.custom.button;
 import javax.swing.*;
 import java.awt.event.ActionListener;
 
-public class FinishedGameButton extends JButton {
+public class NewGameButton extends JButton {
 
-    public FinishedGameButton(final ActionListener actionListener){
-        this.setText("Concluir");
+    public NewGameButton(final ActionListener actionListener){
+        this.setText("Novo jogo");
         this.addActionListener(actionListener);
     }
 }
